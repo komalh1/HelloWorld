@@ -11,7 +11,7 @@ pipeline {
                 echo 'Building..'
                 echo "Building version ${NEW_VERSION}"
                 echo "Building on Build ${BUILD_ID}"
-                echo "Building on Build $(BUILD_DISPLAY_NAME)"
+
             }
         }
         stage('Test') {
