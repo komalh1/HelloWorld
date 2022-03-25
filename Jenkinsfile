@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo "Building version ${NEW_VERSION}"
-                echo "Building on branch ${BUILD_ID}"
+                echo "Building on Build ${BUILD_ID}"
             }
         }
         stage('Test') {
