@@ -10,6 +10,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo "Building version ${NEW_VERSION}"
+                 echo "Building on branch ${BRANCH_NAME}"
             }
         }
         stage('Test') {
